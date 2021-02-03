@@ -1,0 +1,118 @@
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/* Main */
+
+.center {
+    margin: auto;
+}
+.google {
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    padding: 0px, 40px;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: rgba(201, 202, 201, 0.973);
+    border-radius: 50px;
+    margin-bottom: 20px;
+    }
+
+form {
+    margin: auto;
+}
+
+/* Top Navigation */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(48, 48, 48);
+}
+
+/* Footer */
+
+ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+ul.footer li {float: left;}
+
+ul.footer li.right {float: right;}
+
+ul.footer li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(134, 134, 134);
+}
+
+/* List Items */
+
+li {
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 14px; 
+    margin: 5px;
+    vertical-align: middle;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a {
+    color: rgb(68, 68, 70);
+    text-decoration: none; 
+    padding-right: 5px;
+  }
+
+li a:hover {
+     text-decoration: underline;
+  }
+  
+/* Search Buttons */
+
+.search-button {
+    background-color:#ededec;
+    width: 130px;
+    height: 35px;
+    color: rgb(106, 106, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-radius: 4px;
+    border: none;
+    margin: none;
+}
